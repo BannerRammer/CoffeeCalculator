@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EB90E481FE8C70100424693 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB90E471FE8C70100424693 /* main.m */; };
+		8EB90E4E1FE8C70100424693 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB90E4D1FE8C70100424693 /* ViewController.m */; };
+		8EB90E511FE8C70100424693 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB90E4F1FE8C70100424693 /* Main.storyboard */; };
+		8EB90E531FE8C70100424693 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB90E521FE8C70100424693 /* Assets.xcassets */; };
+		8EB90E561FE8C70100424693 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB90E541FE8C70100424693 /* LaunchScreen.storyboard */; };
+		8EB90E611FE8C70100424693 /* CoffeeCalculatorAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB90E601FE8C70100424693 /* CoffeeCalculatorAppTests.m */; };
+		8EB90E6C1FE8C70100424693 /* CoffeeCalculatorAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB90E6B1FE8C70100424693 /* CoffeeCalculatorAppUITests.m */; };
+		8EB90E7E1FE8E7D900424693 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB90E7D1FE8E7D900424693 /* ExternalAccessory.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EB90E5D1FE8C70100424693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EB90E3B1FE8C70100424693 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EB90E421FE8C70100424693;
+			remoteInfo = CoffeeCalculatorApp;
+		};
+		8EB90E681FE8C70100424693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EB90E3B1FE8C70100424693 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EB90E421FE8C70100424693;
+			remoteInfo = CoffeeCalculatorApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EB90E431FE8C70100424693 /* CoffeeCalculatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeCalculatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB90E471FE8C70100424693 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EB90E4C1FE8C70100424693 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8EB90E4D1FE8C70100424693 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8EB90E501FE8C70100424693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EB90E521FE8C70100424693 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EB90E551FE8C70100424693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EB90E571FE8C70100424693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EB90E5C1FE8C70100424693 /* CoffeeCalculatorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeCalculatorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB90E601FE8C70100424693 /* CoffeeCalculatorAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeCalculatorAppTests.m; sourceTree = "<group>"; };
+		8EB90E621FE8C70100424693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EB90E671FE8C70100424693 /* CoffeeCalculatorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeCalculatorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB90E6B1FE8C70100424693 /* CoffeeCalculatorAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeCalculatorAppUITests.m; sourceTree = "<group>"; };
+		8EB90E6D1FE8C70100424693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EB90E7C1FE8E7D200424693 /* CoffeeCalculatorApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoffeeCalculatorApp.entitlements; sourceTree = "<group>"; };
+		8EB90E7D1FE8E7D900424693 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EB90E401FE8C70100424693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB90E7E1FE8E7D900424693 /* ExternalAccessory.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB90E591FE8C70100424693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB90E641FE8C70100424693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EB90E3A1FE8C70100424693 = {
+			isa = PBXGroup;
+			children = (
+				8EB90E451FE8C70100424693 /* CoffeeCalculatorApp */,
+				8EB90E5F1FE8C70100424693 /* CoffeeCalculatorAppTests */,
+				8EB90E6A1FE8C70100424693 /* CoffeeCalculatorAppUITests */,
+				8EB90E441FE8C70100424693 /* Products */,
+				8EB90E791FE8E7D200424693 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8EB90E441FE8C70100424693 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EB90E431FE8C70100424693 /* CoffeeCalculatorApp.app */,
+				8EB90E5C1FE8C70100424693 /* CoffeeCalculatorAppTests.xctest */,
+				8EB90E671FE8C70100424693 /* CoffeeCalculatorAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EB90E451FE8C70100424693 /* CoffeeCalculatorApp */ = {
+			isa = PBXGroup;
+			children = (
+				8EB90E7C1FE8E7D200424693 /* CoffeeCalculatorApp.entitlements */,
+				8EB90E4C1FE8C70100424693 /* ViewController.h */,
+				8EB90E4D1FE8C70100424693 /* ViewController.m */,
+				8EB90E4F1FE8C70100424693 /* Main.storyboard */,
+				8EB90E521FE8C70100424693 /* Assets.xcassets */,
+				8EB90E541FE8C70100424693 /* LaunchScreen.storyboard */,
+				8EB90E571FE8C70100424693 /* Info.plist */,
+				8EB90E461FE8C70100424693 /* Supporting Files */,
+			);
+			path = CoffeeCalculatorApp;
+			sourceTree = "<group>";
+		};
+		8EB90E461FE8C70100424693 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EB90E471FE8C70100424693 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EB90E5F1FE8C70100424693 /* CoffeeCalculatorAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EB90E601FE8C70100424693 /* CoffeeCalculatorAppTests.m */,
+				8EB90E621FE8C70100424693 /* Info.plist */,
+			);
+			path = CoffeeCalculatorAppTests;
+			sourceTree = "<group>";
+		};
+		8EB90E6A1FE8C70100424693 /* CoffeeCalculatorAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EB90E6B1FE8C70100424693 /* CoffeeCalculatorAppUITests.m */,
+				8EB90E6D1FE8C70100424693 /* Info.plist */,
+			);
+			path = CoffeeCalculatorAppUITests;
+			sourceTree = "<group>";
+		};
+		8EB90E791FE8E7D200424693 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EB90E7D1FE8E7D900424693 /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EB90E421FE8C70100424693 /* CoffeeCalculatorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB90E701FE8C70100424693 /* Build configuration list for PBXNativeTarget "CoffeeCalculatorApp" */;
+			buildPhases = (
+				8EB90E3F1FE8C70100424693 /* Sources */,
+				8EB90E401FE8C70100424693 /* Frameworks */,
+				8EB90E411FE8C70100424693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoffeeCalculatorApp;
+			productName = CoffeeCalculatorApp;
+			productReference = 8EB90E431FE8C70100424693 /* CoffeeCalculatorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EB90E5B1FE8C70100424693 /* CoffeeCalculatorAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB90E731FE8C70100424693 /* Build configuration list for PBXNativeTarget "CoffeeCalculatorAppTests" */;
+			buildPhases = (
+				8EB90E581FE8C70100424693 /* Sources */,
+				8EB90E591FE8C70100424693 /* Frameworks */,
+				8EB90E5A1FE8C70100424693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EB90E5E1FE8C70100424693 /* PBXTargetDependency */,
+			);
+			name = CoffeeCalculatorAppTests;
+			productName = CoffeeCalculatorAppTests;
+			productReference = 8EB90E5C1FE8C70100424693 /* CoffeeCalculatorAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EB90E661FE8C70100424693 /* CoffeeCalculatorAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB90E761FE8C70100424693 /* Build configuration list for PBXNativeTarget "CoffeeCalculatorAppUITests" */;
+			buildPhases = (
+				8EB90E631FE8C70100424693 /* Sources */,
+				8EB90E641FE8C70100424693 /* Frameworks */,
+				8EB90E651FE8C70100424693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EB90E691FE8C70100424693 /* PBXTargetDependency */,
+			);
+			name = CoffeeCalculatorAppUITests;
+			productName = CoffeeCalculatorAppUITests;
+			productReference = 8EB90E671FE8C70100424693 /* CoffeeCalculatorAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EB90E3B1FE8C70100424693 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = BlastCorp;
+				TargetAttributes = {
+					8EB90E421FE8C70100424693 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A29MD3JY7L;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.WAC = {
+								enabled = 1;
+							};
+						};
+					};
+					8EB90E5B1FE8C70100424693 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A29MD3JY7L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8EB90E421FE8C70100424693;
+					};
+					8EB90E661FE8C70100424693 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A29MD3JY7L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8EB90E421FE8C70100424693;
+					};
+				};
+			};
+			buildConfigurationList = 8EB90E3E1FE8C70100424693 /* Build configuration list for PBXProject "CoffeeCalculatorApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EB90E3A1FE8C70100424693;
+			productRefGroup = 8EB90E441FE8C70100424693 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EB90E421FE8C70100424693 /* CoffeeCalculatorApp */,
+				8EB90E5B1FE8C70100424693 /* CoffeeCalculatorAppTests */,
+				8EB90E661FE8C70100424693 /* CoffeeCalculatorAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EB90E411FE8C70100424693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB90E561FE8C70100424693 /* LaunchScreen.storyboard in Resources */,
+				8EB90E531FE8C70100424693 /* Assets.xcassets in Resources */,
+				8EB90E511FE8C70100424693 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB90E5A1FE8C70100424693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB90E651FE8C70100424693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EB90E3F1FE8C70100424693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB90E4E1FE8C70100424693 /* ViewController.m in Sources */,
+				8EB90E481FE8C70100424693 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB90E581FE8C70100424693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB90E611FE8C70100424693 /* CoffeeCalculatorAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB90E631FE8C70100424693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB90E6C1FE8C70100424693 /* CoffeeCalculatorAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EB90E5E1FE8C70100424693 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EB90E421FE8C70100424693 /* CoffeeCalculatorApp */;
+			targetProxy = 8EB90E5D1FE8C70100424693 /* PBXContainerItemProxy */;
+		};
+		8EB90E691FE8C70100424693 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EB90E421FE8C70100424693 /* CoffeeCalculatorApp */;
+			targetProxy = 8EB90E681FE8C70100424693 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EB90E4F1FE8C70100424693 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EB90E501FE8C70100424693 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EB90E541FE8C70100424693 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EB90E551FE8C70100424693 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EB90E6E1FE8C70100424693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8EB90E6F1FE8C70100424693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EB90E711FE8C70100424693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CoffeeCalculatorApp/CoffeeCalculatorApp.entitlements;
+				DEVELOPMENT_TEAM = A29MD3JY7L;
+				INFOPLIST_FILE = CoffeeCalculatorApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LorenzoTablante.CoffeeCalculatorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8EB90E721FE8C70100424693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CoffeeCalculatorApp/CoffeeCalculatorApp.entitlements;
+				DEVELOPMENT_TEAM = A29MD3JY7L;
+				INFOPLIST_FILE = CoffeeCalculatorApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LorenzoTablante.CoffeeCalculatorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8EB90E741FE8C70100424693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A29MD3JY7L;
+				INFOPLIST_FILE = CoffeeCalculatorAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LorenzoTablante.CoffeeCalculatorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeeCalculatorApp.app/CoffeeCalculatorApp";
+			};
+			name = Debug;
+		};
+		8EB90E751FE8C70100424693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A29MD3JY7L;
+				INFOPLIST_FILE = CoffeeCalculatorAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LorenzoTablante.CoffeeCalculatorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeeCalculatorApp.app/CoffeeCalculatorApp";
+			};
+			name = Release;
+		};
+		8EB90E771FE8C70100424693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A29MD3JY7L;
+				INFOPLIST_FILE = CoffeeCalculatorAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LorenzoTablante.CoffeeCalculatorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoffeeCalculatorApp;
+			};
+			name = Debug;
+		};
+		8EB90E781FE8C70100424693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A29MD3JY7L;
+				INFOPLIST_FILE = CoffeeCalculatorAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LorenzoTablante.CoffeeCalculatorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoffeeCalculatorApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EB90E3E1FE8C70100424693 /* Build configuration list for PBXProject "CoffeeCalculatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB90E6E1FE8C70100424693 /* Debug */,
+				8EB90E6F1FE8C70100424693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EB90E701FE8C70100424693 /* Build configuration list for PBXNativeTarget "CoffeeCalculatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB90E711FE8C70100424693 /* Debug */,
+				8EB90E721FE8C70100424693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EB90E731FE8C70100424693 /* Build configuration list for PBXNativeTarget "CoffeeCalculatorAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB90E741FE8C70100424693 /* Debug */,
+				8EB90E751FE8C70100424693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EB90E761FE8C70100424693 /* Build configuration list for PBXNativeTarget "CoffeeCalculatorAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB90E771FE8C70100424693 /* Debug */,
+				8EB90E781FE8C70100424693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EB90E3B1FE8C70100424693 /* Project object */;
+}
